@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{int a,b,s,d,p,c;
+    cout << "a = ";
+    cin >>a;
+    cout << "b = ";
+    cin >>b;
+    s=a+b;
+    d=a-b;
+    p=a*b;
+    c=a/b;
+    cout << "s = "<<s<<endl;
+    cout << "d = "<<d<<endl;
+    cout << "p = "<<p<<endl;
+    cout << "c = "<<c<<endl;
+    return 0;
+}
